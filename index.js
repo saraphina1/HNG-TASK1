@@ -7,7 +7,7 @@ function formatDate(date){
     const DAYS=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     const MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"]
 
-    return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`
+    return `${DAYS[date.getDay()]}`
 }
 function formatTime(date){
     const hours12= date.getHours() % 12 || 12;

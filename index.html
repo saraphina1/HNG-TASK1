@@ -10,13 +10,19 @@
 <body>
   <div class="profile">
     <div class="imgContainer">
-        <h1 class="name">Bunmi Oyeyemi</h1>
-        <img src="dp.jpeg" alt="bunmi oyeyemi" class="image">
+        <h1 class="name" data-testid="slackUserName">Bunmi Oyeyemi</h1>
+        <img src="dp.jpeg" alt="bunmi oyeyemi" class="image"
+        data-testid="slackDisplayImage">
     </div>
-    <div class="date"></div>
-    <div class="time"></div>
-    <p class="myTrack">Frontend Development</p>
-
+    <div class="info">
+    <div class="date" data-testid="currentDayOfTheWeek"></div>
+    <div class="time" data-testid="currentUTCTime"></div>
+    <p class="myTrack" data-testid="myTrack">Frontend Development</p>
+    <p class="link">Click 
+    <a href="https://github.com/saraphina1/HNG-TASK1" data-testid=“githubURL”>
+        <button class="btn">Here</button></a>
+    for my Github repository</p>
+    </div>
   </div>  
 </body>
 </html>

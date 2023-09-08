@@ -17,6 +17,7 @@
     width: 15%;
     height: 10%;
 }
+
 .date{
     padding-top: 10px;
 }
@@ -26,4 +27,16 @@
 .myTrack{
     padding-bottom: 10px;
     
+}
+.btn{
+    font-size: 16px;
+    font-weight: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    color: blueviolet;
+}
+.link{
+    padding-bottom: 10px;
 }
